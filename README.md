@@ -65,7 +65,7 @@
 </tr>
 </table>
 
-| 還有這些 | 為什麼這樣做 |
+| 事項 | 原由 |
 | --- | --- |
 | **選單把 lab 收成一套** | `lab7` 的 MenuBar + TabPane 把點餐、維護、分析與關於頁接在同一個視窗。 |
 | **票面是原創示範圖** | `tools/make_demo_cards.py` 畫幾何卡面。2023 用過的官方圖在本機原料庫，不上傳。 |
@@ -185,12 +185,6 @@ CONTRIBUTING.md        貢獻約定
 CHANGELOG.md           Keep a Changelog 2.0.0
 original-data/         2023 原料庫，已被 .gitignore
 ```
-
-「為什麼官方圖不進 git」見 [`docs/README.md`](docs/README.md)。
-
-## 貢獻
-
-這是封存的課程作業。歡迎修正文件、補環境註記、修展示腳本的明顯缺陷；請不要把 `original-data/`、官方票面或真實帳密推進公開分支。細節在 [`CONTRIBUTING.md`](CONTRIBUTING.md)。
 
 ## 授權
 

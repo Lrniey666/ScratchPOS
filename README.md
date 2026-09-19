@@ -78,8 +78,6 @@
 
 ## 示範
 
-公開樹沒有課堂錄影。下面是一張公開用的示範卡，以及三欄版面示意。
-
 <p align="center">
   <img src="docs/assets/demo-card.jpg" alt="金庫示範券原創卡面" width="360">
 </p>

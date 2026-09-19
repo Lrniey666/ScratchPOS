@@ -76,18 +76,6 @@
 | **帳密不寫進簡介畫面** | 連線讀 `config/db.properties` 或 `LOTTERY_POS_DB_*`。範本不含真實環境。 |
 | **分析可以是空的** | 沒訂單就顯示零與提示，不再假裝系統還沒開業。 |
 
-## 示範
-
-<p align="center">
-  <img src="docs/assets/demo-card.jpg" alt="金庫示範券原創卡面" width="360">
-</p>
-<p align="center"><sub>金庫示範券。黃標 DEMO，幾何色塊，不是官方票。其餘價位同一支腳本產出。</sub></p>
-
-<p align="center">
-  <img src="docs/assets/pos-schematic.svg" alt="點餐畫面三欄示意" width="760">
-</p>
-<p align="center"><sub>左：價位過濾。中：虛構票面磁磚。右：購物車與結帳。這是示意，不是螢幕截圖。</sub></p>
-
 ### 一條完整路徑
 
 ```text

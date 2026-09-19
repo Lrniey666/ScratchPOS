@@ -3,10 +3,6 @@
   <a href="docs/README.en.md"><img alt="English" src="https://img.shields.io/badge/English-e8b838?style=for-the-badge&labelColor=1a1423"></a>
 </p>
 
-<p align="center">
-  <img src="docs/assets/hero.svg" alt="ScratchPOS" width="760">
-</p>
-
 <h1 align="center">ScratchPOS</h1>
 
 <p align="center">
@@ -37,7 +33,7 @@
 
 ---
 
-課堂要做的是一套連資料庫的 POS：分類菜單、購物車、商品維護。這份作業把飲料店模板改成**虛構刮刮樂**——五個價位、結帳寫入 MariaDB，2026 年補上原本空著的訂單分析，並把官方票面移出公開樹。
+課堂要做的是一套連資料庫的 POS：分類菜單、購物車、商品維護。這份作業把飲料店模板改成**虛構刮刮樂**——五個價位、結帳寫入 MariaDB，2026 年補上原本空著的訂單分析。
 
 > **現況。** 這是 2023 的繳交成品，2026 年才收成可公開的展示倉。商品名全部是「○○示範券」。官方圖、學號報告、舊 SQL 傾印只留在本機 `original-data/`，已被 git 忽略。本倉**不是**任何彩券發行機構的系統。
 

@@ -1,0 +1,11 @@
+公開展示用的票面與視窗圖示
+--------------------------------
+src/imgs/*.jpg 與 src/imgs/TL.png
+由 tools/make_demo_cards.py 產生，是 ScratchPOS 的原創示範圖。
+商品名是虛構的「○○示範券」，不是任何官方彩券。
+
+本機才有的 2023 作業原料
+--------------------------------
+original-data/official-artwork/
+original-data/course-pack/
+已被 .gitignore，不進公開倉。那些檔含第三方票面與商標，僅供本機對照，請勿再上傳。

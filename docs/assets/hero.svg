@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">ScratchPOS</title>
+  <desc id="desc">A JavaFX and MariaDB coursework till for fictional scratch-card stock.</desc>
+  <style>
+    .bg { fill: #f7f1e6; }
+    .frame { fill: none; stroke: #e4d8c2; stroke-width: 1; }
+    .ink { fill: #1a1423; }
+    .muted { fill: #6a5d50; }
+    .red { fill: #9b1b30; }
+    .gold { fill: #e8b838; }
+    .navy { fill: #1b3a4b; }
+    .chip { fill: #ffffff; stroke: #e4d8c2; stroke-width: 1; }
+    .chip-text { fill: #1a1423; font: 600 17px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .title { fill: #1a1423; font: 700 58px "Segoe UI", "Helvetica Neue", sans-serif; letter-spacing: 0.4px; }
+    .tag { fill: #6a5d50; font: 400 20px "Segoe UI", "Helvetica Neue", sans-serif; }
+    .rule { stroke: #9b1b30; stroke-width: 4; stroke-linecap: round; }
+    .ticket { fill: #9b1b30; }
+    .cut { fill: #f7f1e6; }
+    .screen { fill: #1b3a4b; }
+    .glow { fill: #e8b838; }
+    @media (prefers-color-scheme: dark) {
+      .bg { fill: #161118; }
+      .frame { stroke: #322833; }
+      .ink, .title, .chip-text { fill: #f4ead8; }
+      .muted, .tag { fill: #b5a48f; }
+      .chip { fill: #221c24; stroke: #322833; }
+      .cut { fill: #161118; }
+    }
+  </style>
+  <rect class="bg" width="1200" height="360" rx="28"/>
+  <rect class="frame" x="0.5" y="0.5" width="1199" height="359" rx="28"/>
+
+  <g transform="translate(56,70)">
+    <rect class="ticket" x="0" y="24" width="210" height="140" rx="16"/>
+    <circle class="cut" cx="0" cy="94" r="16"/>
+    <circle class="cut" cx="210" cy="94" r="16"/>
+    <rect class="glow" x="28" y="44" width="70" height="22" rx="6"/>
+    <rect class="glow" x="28" y="86" width="150" height="14" rx="4"/>
+    <rect class="glow" x="28" y="112" width="110" height="14" rx="4"/>
+    <rect class="navy" x="236" y="8" width="150" height="196" rx="14"/>
+    <rect class="screen" x="250" y="28" width="122" height="86" rx="6"/>
+    <rect class="glow" x="262" y="132" width="36" height="24" rx="4"/>
+    <rect class="glow" x="308" y="132" width="36" height="24" rx="4"/>
+    <rect class="red" x="262" y="166" width="82" height="20" rx="4"/>
+  </g>
+
+  <text class="title" x="470" y="148">ScratchPOS</text>
+  <text class="tag" x="470" y="188">JavaFX · MariaDB · fictional scratch-card till</text>
+  <line class="rule" x1="470" y1="208" x2="538" y2="208"/>
+
+  <g>
+    <rect class="chip" x="470" y="236" width="128" height="40" rx="10"/>
+    <text class="chip-text" x="534" y="262" text-anchor="middle">Java 8</text>
+    <rect class="chip" x="610" y="236" width="140" height="40" rx="10"/>
+    <text class="chip-text" x="680" y="262" text-anchor="middle">JavaFX</text>
+    <rect class="chip" x="762" y="236" width="150" height="40" rx="10"/>
+    <text class="chip-text" x="837" y="262" text-anchor="middle">MariaDB</text>
+    <rect class="chip" x="924" y="236" width="200" height="40" rx="10"/>
+    <text class="chip-text" x="1024" y="262" text-anchor="middle">2023 coursework</text>
+  </g>
+</svg>

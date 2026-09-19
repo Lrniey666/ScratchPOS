@@ -1,0 +1,20 @@
+# Local 2023 dump: official lottery artwork, Word reports, course pack
+original-data/*
+!original-data/README.md
+
+# NetBeans / Java build
+build/
+dist/
+nbproject/private/
+
+# Local database credentials
+db.properties
+config/db.properties
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.vscode/
+.idea/
+*.tmp
+*.swp

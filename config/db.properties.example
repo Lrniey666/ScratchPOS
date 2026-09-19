@@ -1,0 +1,4 @@
+# Copy to config/db.properties (gitignored) or set the LOTTERY_POS_DB_* environment variables.
+db.url=jdbc:mariadb://localhost:3306/lottery_pos
+db.user=mis
+db.password=mis123

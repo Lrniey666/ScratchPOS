@@ -1,0 +1,13 @@
+* text=auto eol=lf
+*.java text
+*.md text
+*.sql text
+*.css text
+*.svg text
+*.xml text
+*.properties text
+*.csv text
+*.jpg binary
+*.jpeg binary
+*.png binary
+*.jar binary
